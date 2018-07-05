@@ -34,7 +34,7 @@ public class Register extends HttpServlet {
 			ps.executeUpdate();    
 			out.println("You are successfully registered..."+"<div class=\"row\">\r\n" + 
 					"<div class=\"col-md-12\">\r\n" + 
-					"<div class=\"view\" style=\"background-image: url('background.jpg'); background-repeat: no-repeat;  background-position: center center;\">\r\n" + 
+					"<div class=\"view\" style=\"background-image: url('background.jpg'); background-repeat: no-repeat;  background-position: center center; height:100%\">\r\n" + 
 					"<div class=\"mask rgba-gradient d-flex justify-content-center align-items-center\">\r\n"+
 					"<a href='Login.html'>Click Here to go to Login page</a>");
 		}

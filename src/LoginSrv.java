@@ -55,7 +55,7 @@ public class LoginSrv extends HttpServlet{
 		}
 		}
 		catch (Exception e) {
-			 out.println("<h4 style=\"color:red\">Username or Password Error </h4>"+e.getMessage());
+			 out.println("<h4 style=\"color:red\">Username or Password Error </h4>");
 				RequestDispatcher rd=req.getRequestDispatcher("Login.html");  
 		        rd.include(req,resp);
 		}
