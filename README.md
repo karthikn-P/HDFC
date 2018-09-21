@@ -1,6 +1,4 @@
 # HDFC
 My local project for practice
 
-hitsdea
-dskfhdsjh
-lkjdfshkj
+https://karthikn-p.github.io/HDFC/WebContent/Register.html
